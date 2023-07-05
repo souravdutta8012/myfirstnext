@@ -12,7 +12,7 @@ export default function Header() {
                     </Link>
                     <Box className="flex justify-between items-center w-full">
                         <Box className="font-semibold ml-5">
-                            WIMS
+                            Woodside Interface Management System
                         </Box>
                         <Box className="mr-5">
                             Hi
