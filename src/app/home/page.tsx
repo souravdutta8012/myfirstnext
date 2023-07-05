@@ -1,13 +1,12 @@
-export const metadata = {
-    title: 'WIMS - Home',
-};
+"use client"
+import { Box } from "@mui/material";
 
 export default function Home() {
     return (
         <>
-            <div className="bg-red-600">
+            <Box>
                 Home
-            </div>
+            </Box>
         </>
     )
 }
