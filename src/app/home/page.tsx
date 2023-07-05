@@ -1,7 +1,13 @@
+export const metadata = {
+    title: 'WIMS - Home',
+};
+
 export default function page() {
     return (
         <>
-            Home
+            <div className="bg-red-600">
+                Home
+            </div>
         </>
     )
 }
