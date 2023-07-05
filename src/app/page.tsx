@@ -1,9 +1,5 @@
+import { redirect } from 'next/navigation';
+
 export default function Home() {
-  return (
-    <>
-      <div className="bg-red-600">
-        Land
-      </div>
-    </>
-  )
+  redirect('/home');
 }
